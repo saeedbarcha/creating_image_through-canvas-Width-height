@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MainDiv{
+    width: 100%;
+    height: auto;
+    background-color: rgb(68, 61, 73);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+
+}
+.form{
+    width: 30%;
+    height: 10vh;
+    /* background-color: rgb(166, 65, 255); */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subBtn{
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    border: none;
+}
+.subBtn:hover{
+    opacity: 0.8;
+}
+.inputField{
+    outline: none;
+    border: none;
+}
+.inputField:hover{
+    outline: none;
+    border: none;
+}
+.inputField:checked{
+    outline: none;
+    border: none;
+}
+.imageCont{
+    background-color: rgb(152, 197, 197);
+    width: 80%;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+
+    height: auto;
+    min-height: 50%;
+    display: flex;
+  
+    
+
+}
+
+#canvasCont{
+    border: 2px solid black;
+    border: 2px solid rgb(108, 0, 216);
+    background-color: rgb(100, 98, 98);
+    min-height: 500px;
+    max-height: auto;
+    min-width: 500px;
+    max-width: auto;
+    margin-top: 20px;
+
+}
+#canvas{
+    /* border: 4px solid rgb(201, 9, 9);   */
+}
